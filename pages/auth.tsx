@@ -60,6 +60,7 @@ const Auth = () => {
         </nav>
         <div className="flex justify-center">
           <div className="bg-black bg-opacity-70 px-16 py-16 self-center mt-2 lg:w-2/5 lg:max-w-md rounded-md w-full">
+            <h4 className="text-white text-2xl mb-8 font-semibold">学習時間を年収に<br></br>可視化するアプリ</h4>
             <h2 className="text-white text-4xl mb-8 font-semibold">
               {variant === 'login' ? 'Sign In' : 'Sign Up'}
             </h2>
