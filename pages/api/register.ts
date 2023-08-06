@@ -24,6 +24,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     // bcrypt.hashの意味とは、ハッシュ化するということです。
     const hashedPassword = await bcrypt.hash(password, 12);
 
+    // ユーザーを作成する
     const user = await prismadb.user.create({
       data: {
         email,
